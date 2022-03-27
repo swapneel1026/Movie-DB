@@ -48,7 +48,7 @@ async function searchMovieHandler() {
       let MoviesRatingBox = document.createElement("span");
       MoviesRatingBox.setAttribute("class", "rating");
       if (movieResponse[i].poster_path === null) {
-        MoviesImageBox.src = "/moviesdb/icons/th.webp";
+        MoviesImageBox.src = "th.webp";
       } else {
         MoviesImageBox.src = `${IMG_PATH}${movieResponse[i].poster_path}`;
       }
@@ -68,7 +68,7 @@ async function searchMovieHandler() {
         descimg.setAttribute("id", "descimg");
 
         if (movieResponse[i].backdrop_path === null) {
-          descimg.src = "/moviesdb/icons/th.webp";
+          descimg.src = "th.webp";
           descimg.style.backgroundSize = "cover";
         } else {
           descimg.src = `${IMG_PATH}${movieResponse[i].backdrop_path}`;
