@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media-queries.css" />
+
+    <title>moviesdb</title>
+  </head>
+  <body class="body">
+    <div class="container-main">
+      <nav class="navbar">
+        <div class="logo"><h1 class="home-h1">MovieMania</h1></div>
+        <div class="search-bar">
+          <input id="input-search" placeholder="Maybe Avatar?" />
+          <button type="search" onclick="searchMovieHandler()">🔍</button>
+        </div>
+        <div class="profile-icon">
+          <div></div>
+        </div>
+      </nav>
+
+      <div class="container-inside">
+        <div class="bg-collage">
+          <div class="row1">
+            <div>
+              <img
+                src="/moviesdb/icons/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/8RW2runSEc34IwKN2D1aPcJd2UL.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/AboUXTrDWEi0PuZUqaft0iwBTm7.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/dxjjMJqaZeRxMQmRL2dzkl9KxIv.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="row2">
+            <div>
+              <img
+                src="/moviesdb/icons/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/nj0cMoZjLRrqN9SFW3wCXlSTYxd.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/moviesdb/icons/lUpMckVHaB55YJ3SMK0arwxKmCt.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <h1 id="h1"></h1>
+        <div class="movie-desc-container">
+          <div id="movieList-flex" class="movieList-flex">
+            <ul id="ul"></ul>
+          </div>
+          <div class="movie-Full-description">
+            <div class="movie-Full-description-img">
+              <!-- <img id="desc-img" src="/moviesdb/icons/th.webp" alt="" /> -->
+            </div>
+            <div class="movie-Full-description-details">
+              <h2 class="movie-title"></h2>
+              <h4 class="movie-year"></h4>
+              <p class="movie-long-desc"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
