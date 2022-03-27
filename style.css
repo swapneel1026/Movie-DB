@@ -16,9 +16,10 @@ html {
 }
 
 .container-main {
-  width: 82%;
+  width: 110rem;
   height: 100%;
 
+  /* border: 1px solid red; */
   border-radius: 1rem;
 }
 /* background: linear-gradient(to right, rgb(51, 51, 65), grey, rgb(31, 31, 58)); */
@@ -46,7 +47,6 @@ html {
   font-size: 2rem;
 
   font-family: "Dela Gothic One", cursive;
-  /* border: 1px solid red; */
 }
 
 .search-bar {
@@ -248,8 +248,8 @@ html {
   color: rgb(189, 189, 189);
 }
 .bg-collage {
-  /* border: 3px solid red; */
-  width: 114.6rem;
+  border: 3px solid red;
+  width: 98%;
   height: 100rem;
   position: relative;
   top: 5rem;
